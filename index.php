@@ -28,7 +28,7 @@
         if ($requested_page == "earthquake") { ?>
             <!-- Load the Google Maps JavaScript API -->
             <script src="<?=URL_PATH?>/static/js/geo-map-request.js?v=<?=$cache_version?>"></script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrr4nNkNc2qvFgRwOttfCM8l5_sar27xI&callback=initMap"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key={MY_API_KEYS}&callback=initMap"></script>
         <? } else { ?>
             <!-- Load JS Script for products -->
             <script src="<?=URL_PATH?>/static/js/product.js?v=<?=$cache_version?>"></script>
