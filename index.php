@@ -22,7 +22,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primal Developer Test</title>
+    <title>Developer Test</title>
     <?php
         // Load specific scripts when necessary
         if ($requested_page == "earthquake") { ?>
